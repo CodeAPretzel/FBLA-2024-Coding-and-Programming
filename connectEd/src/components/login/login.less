@@ -1,0 +1,80 @@
+.login-page {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	width: 100%;
+
+	#logo {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		height: 170px;
+		position: relative;
+		width: 100%;
+
+		img {
+			height: 100%;
+			position: absolute;
+			width: auto;
+		}
+
+		#logo-frame {
+			animation: rotateY 5s linear infinite;
+		}
+	}
+
+	#login-form {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+
+		#error-message {
+			color: #e94141;
+			margin-top: 20px;
+		}
+
+		input {
+			background-color: #1a1a1a;
+			border: none;
+			border-radius: 5px;
+			box-sizing: border-box;
+			display: inline-flex;
+			transition: all .6s;
+			line-height: 1.5;
+			list-style: none;
+			margin-bottom: 10px;
+			outline: none;
+			min-width: fit-content;
+			padding: 5px 10px;
+			position: relative;
+			width: 350px;
+		}
+	}
+
+	span {
+		margin-top: 30px;
+
+		& > span {
+			color: #38b2ac;
+			cursor: pointer;
+			font-weight: bold;
+			transition: color 0.3s ease;
+			user-select: none;
+
+			&:hover {
+				color: #5bdd54;
+			}
+		}
+	}
+}
+
+// Define Keyframe for Rotating SVG
+@keyframes rotateY {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
