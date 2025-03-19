@@ -51,7 +51,7 @@
 Whether someone in a school's Career and Technical Education Department is trying to store business information or general data, ConnectED allows users to store, navigate, modify, and integrate data into their work or personal projects.
 <br>
 
-<!--><li></li><br>
+<li></li><br>
 
 This software application stores users' data on a secure network that can be easily retrieved by users' authentication in the form of a password and username. This allows the user to easily come back to the application and pick back up from where they left off without having to store any of this data on their local machine.
 
@@ -65,7 +65,7 @@ This software application stores users' data on a secure network that can be eas
 This software meets the requirements illustrated in the guidelines here: [FBLA GUIDELINES](https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Coding--Programming.pdf)
 
 - [x] The software should be an executable/program for the user to use.
-  - Software can be installed and used by an executable file.
+  - Software can be installed and used by an executable file on a Windows operating system only.
 - [x] The software should contain some form of adding, filtering, and modifying data that comes up to over 25.
   - Software contains an intuitive user interface to add, filter, and modify data that exceeds the 25 count.
 - [x] The software should allow a school's Career and Technical Education Department to use this program.
