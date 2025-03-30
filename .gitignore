@@ -1,2 +1,3 @@
 # Ignore Documentation Folder
 Documentation-and-Setup/**
+.vs/**

@@ -32,4 +32,4 @@ yarn.lock
 /playwright/.cache/
 
 # node_modules
-node_modules/** */
+node_modules/**
